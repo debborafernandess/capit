@@ -1,7 +1,9 @@
 CapIt!
 ======
-CapIt provides a simple Ruby interface to Björn Höhrmann's 
-[CutyCapt][1]. 
+CapIt provides a simple Ruby interface to Björn Höhrmann's
+Changed capture from `xvfb` to `cutycapt` because de old method 'xvfb run ...' was unreconized
+
+[CutyCapt][1].
 
 Install CutyCapt
 ----------------
