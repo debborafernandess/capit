@@ -118,7 +118,7 @@ module CapIt
 
 
       if determine_os == :linux
-        cutycapt = "cutycapt"
+        cutycapt = "xvfb-run --server-args='-screen 0, 1050x1680x24' cutycapt"
         cutycapt.concat(cmd)
       else
         cmd
